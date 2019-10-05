@@ -1,4 +1,4 @@
-exports.decrypt = function (ciphertext, nonce){
+exports.decrypt = async function (ciphertext, nonce){
 }
-exports.setKey = function (key){
+exports.setKey = async function (key){
 }

@@ -1,6 +1,6 @@
-exports.verifyingKey = function(){
+exports.verifyingKey = async function(){
 
 }
-exports.sign = function(msg){
+exports.sign = async function(msg){
 
 }
