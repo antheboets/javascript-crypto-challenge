@@ -1,7 +1,7 @@
 const nacl = require('libsodium-wrappers');
 let myKeypairObj;
 
-let init = () =>{
+let init = async () =>{
     if(!myKeypairObj){
         await nacl.ready
         myKeypairObj =  nacl.crypto_sign_keypair();
